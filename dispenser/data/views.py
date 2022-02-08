@@ -29,3 +29,6 @@ class UploadFileView(generics.CreateAPIView):
                        )
             new_file.save()
         return Response({"status": "success"}, status = status.HTTP_201_CREATED)
+
+
+

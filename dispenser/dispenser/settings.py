@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'data',
     'handler',
-    'rest_framework'
+    'rest_framework',
+    'django_filters',
 
 ]
 
@@ -86,6 +87,10 @@ DATABASES = {
         'HOST':'localhost',
         'PORT':'3306'
     }
+}
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
 
 
