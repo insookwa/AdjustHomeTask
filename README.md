@@ -1,5 +1,5 @@
 # AdjustHomeTask
-This is a system to serve data through a dynamic API . The main project file is name dispensor .  Link to task: https://gist.github.com/kotik-adjust/4883e33c439db6de582fd0986939045c
+This is a system to serve data through a dynamic API http://127.0.0.1:8000/adjust/?operation= . The main project file is name dispensor .  Link to task: https://gist.github.com/kotik-adjust/4883e33c439db6de582fd0986939045c
 
 
 ## About the API 
