@@ -17,7 +17,7 @@ class UploadFileView(generics.CreateAPIView):
         reader = pd.read_csv(file)
         for _, row in reader.iterrows():
             new_file = File(
-                    date = row['date'],
+                    transaction_date = row['date'],
                     channel = row['channel'],
                     country = row['country'],
                     os = row['os'],
